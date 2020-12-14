@@ -37,7 +37,7 @@ document.querySelector('.check').addEventListener('click',function(){
     }
     else if(num == actuall){
         document.querySelector('.startGuess').textContent='You win';
-        document.querySelector('.enterNum').value=num;
+        document.querySelector('.enterNum').textContent=num;
         document.querySelector('.score').textContent=time;
         time=0;
         
